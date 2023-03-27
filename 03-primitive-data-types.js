@@ -20,5 +20,15 @@ let message = 'Your name is ' + fname + ' ' + lname;
 console.log(message);
 
 // Undefined
+// A type that indicates that the variable has been declared but not yet is given a value
+let b;
+console.log(b);
 
 // null
+// A type that indicates that a value does not exist
+let c = null;
+console.log(c);
+
+// Type of a variable or value can be determine by typeof
+console.log(typeof c);
+console.log(typeof 0x788);
