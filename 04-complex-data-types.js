@@ -16,7 +16,7 @@ let profile = ['User', 39, true, 15.44];
 
 // Set
 
-// Map
+// Map & Filter
 
 // Date
 
