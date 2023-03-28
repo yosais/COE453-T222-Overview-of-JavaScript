@@ -14,3 +14,8 @@ console.log(3 != 5);
 console.log(7 > 5 && 2 > 1);
 console.log(7 > 5 || 0 > 1);
 console.log(!(7 > 5));
+
+// Conditional (Ternary) Operator
+let isMember = true;
+let fee = isMember ? '$2.00' : '$10.00';
+console.log(fee);
