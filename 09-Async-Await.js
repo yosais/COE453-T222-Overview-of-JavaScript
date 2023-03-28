@@ -8,16 +8,6 @@ You need to install node-fetch using the following command:  npm install node-fe
 
 import fetch from 'node-fetch';
 
-// Example 1
-
-/*
-fetch('https://reqres.in/api/users/2')
-  .then((res) => res.json())
-  .then((json_obj) => console.log(json_obj.data.first_name))
-  .catch((err) => console.error(error));
-
-// Example 2
-
 async function getUser() {
   try {
     const response = await fetch('https://reqres.in/api/users/2');
@@ -30,23 +20,3 @@ async function getUser() {
 
 getUser();
 console.log('Done');
-*/
-
-// Example 3
-
-const data = {
-  name: 'Ahmad',
-};
-
-const customHeaders = {
-  'Content-Type': 'application/json',
-};
-
-fetch('https://jsonplaceholder.typicode.com/users', {
-  method: 'POST',
-  headers: customHeaders,
-  body: JSON.stringify(data),
-})
-  .then((res) => res.json())
-  .then((json_obj) => console.log(json_obj))
-  .catch((err) => console.error(error));
