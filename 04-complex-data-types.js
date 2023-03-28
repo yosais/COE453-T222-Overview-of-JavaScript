@@ -14,6 +14,12 @@ console.log(coordinates[0][0]); // Get first element in first row
 // An array of fixed size that can have different types of elements
 let profile = ['User', 39, true, 15.44];
 
+// Set
+
+// Map
+
+// Date
+
 // Object (key-value pairs)
 let car1 = { make: 'Toyota', model: 'Camry', year: 2020 };
 console.log(car1.make);
